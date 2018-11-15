@@ -1,0 +1,223 @@
+/* main.css -- v0.1 -- 11/17/2014 */
+@import url("formating.css");
+@import url("navBars.css");
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url("font-awesome-4.2.0/css/font-awesome.min.css");
+*{margin: 0; padding: 0;}
+html{z-index: -500;}
+html, body{height: 100%; background-color: #fff;}
+
+/* All contnet except footer*/
+.mainBody{min-height: 93.59%; margin: 0px auto -66px;}
+
+/* Body Content */
+.titleWrap{background: url("/_support/images/titleIMG.jpg") no-repeat center; min-height: 300px;}
+.title{width: 990px; margin: 0 auto; }
+
+.mainTitle{width: 990px; margin-top: -195px;}
+.mainTitle #alignRight{font-family: 'Oswald', sans-serif; margin-left: -100px; width: auto;}
+.mainTitle h1, .mainTitle h4{text-align: right; width: 990px; padding: 0px;}
+.mainTitle h1{font-size: 42pt; color: white; font-variant: small-caps; letter-spacing: 3px; font-weight: 200;}
+.mainTitle h4{margin: -10px 0 0 -5px; font-size: 12pt; color: white; font-variant: small-caps; letter-spacing: 2px;}
+
+#bannerBg{height:58px; background-color:rgb(20,71,40); padding-bottom: 35px;}
+#bannerPush, #titlePush{height: 95px;}
+
+.imgCredit{font-size: 8pt; color: black; margin-top: 96px; margin-right: 0; float: right; padding: 0;}
+.imgCredit a{color: black;}
+
+.contentWrap{height:auto; width: 990px; margin: 0 auto;}
+.contentWrap p{font-size: 12pt; color: black;}
+
+.centered{text-align: center;}
+
+
+a.button {
+    -moz-box-shadow:inset 0px 0px 0px -15px #fff6af;
+    -webkit-box-shadow:inset 0px 0px 0px -15px #fff6af;
+    box-shadow:inset 0px 0px 0px -15px #fff6af;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23) );
+    background:-moz-linear-gradient( center top, #ffec64 5%, #ffab23 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23');
+    background-color:#ffec64;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    border:3px inset #ffaa22;
+    display:inline-block;
+    color:#333;
+    font-size:15px;
+    padding:2px 1px;
+    text-decoration:none;
+    width:290px;
+    margin:1px;
+    text-align:center;
+    font-weight: bold;
+}
+a.button:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64) );
+    background:-moz-linear-gradient( center top, #ffab23 5%, #ffec64 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64');
+    background-color:#ffab23;
+}
+a.button:active {
+    position:relative;
+    top:1px;
+}
+input.button {
+    -moz-box-shadow:inset 0px 0px 0px -15px #fff6af;
+    -webkit-box-shadow:inset 0px 0px 0px -15px #fff6af;
+    box-shadow:inset 0px 0px 0px -15px #fff6af;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23) );
+    background:-moz-linear-gradient( center top, #ffec64 5%, #ffab23 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23');
+    background-color:#ffec64;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    border:3px inset #ffaa22;
+    display:inline-block;
+    color:#333;
+    font-size:15px;
+    padding:2px 1px;
+    text-decoration:none;
+    float:right;
+    width:290px;
+    margin:1px;
+    text-align:center;
+}
+input.button:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64) );
+    background:-moz-linear-gradient( center top, #ffab23 5%, #ffec64 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64');
+    background-color:#ffab23;
+}
+input.button:active {
+    position:relative;
+    top:1px;
+}
+/*------------------Home CSS------------------*/
+.homeContentWrap{background: url("/_support/images/titleIMG180.png") no-repeat center; height: 397px; margin-top: -18px; z-index: -9999;}
+div.contentBanner{margin-top: -387px; width: 100%; background: rgb(20,71,40); background: rgba(0,0,0,.65);}
+.contentBanner table{width: 990px; margin: 0 auto;}
+.contentBanner p{font-size: 12pt; color: black;}
+.contentBanner td{width: 490px;}
+.contentBanner tr{padding: 15px 0;}
+.contentBanner p{color: white; text-align: center;}
+.contentBanner a{color: #ea0}
+.contentBanner a:hover{color: white;}
+.contentBanner a:active{color: rgb(20,71,40);}
+/*------------------END Home CSS------------------*/
+
+
+
+/*------------------Speakers CSS------------------*/
+table, tr, td{padding: 0;}
+table.speakerTable, .speakerTable tr{width: 990px; margin: 0;}
+.speakerTable tr:nth-child(odd) img{float: right;}
+.speakerTable tr td{margin: 5px 45px; padding: 0;}
+.speakerTable tr td:first-child{margin-right: 0px; float: left;}
+.speakerTable tr td:last-child{margin-left: 0px; float: right;}
+
+.speakerName{width: 200px; height: 200px; text-align: center; vertical-align: middle; line-height: 200px; float: right; background: #999; margin-left: -200px;}
+.speakerName h2{font-size:16px; color: white;}
+
+.speakerContainer{width: 400px;}
+.speakerContainer:hover .speakerName, .speakerContainer.hover .speakerName{background: rgb(20,71,40);}
+.speakerContainer:hover .speakerName h2, .speakerContainer.hover .speakerName h2{color: #ea0;}
+
+/*Pop-up div*/
+/* Mask for background, by default is not display */
+#mask {
+    display: none;
+    background: #000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    z-index: 999;
+    overflow: hidden;
+}
+
+/* You can customize to your needs  */
+.speaker-popup {
+    background: #fff;
+    padding: 10px;
+    border: 2px solid rgb(20,71,40);
+    float: left;
+    position: fixed;
+    top:5%;
+    z-index: 99999;
+    box-shadow: 0px 0px 20px #999;
+    /* CSS3 */
+    -moz-box-shadow: 0px 0px 20px #999;
+    /* Firefox */
+    -webkit-box-shadow: 0px 0px 20px #999;
+    /* Safari, Chrome */
+	border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px;
+    /* Firefox */
+    -webkit-border-radius: 3px;
+    /* Safari, Chrome */;
+
+}
+
+i.btn_close {
+	float: right;
+    margin: -28px -28px 0 0;
+    color: white;
+}
+.speakerDescription{width: 960px;}
+.speakerDescription p{color: black; text-align: left;}
+.speakerDescription img{float: right; padding: 7px;}
+/*.speakerDescription a{color: #ea0;}
+.speakerDescription a:hover{color: white;}*/
+
+.descriptName{font-size: 18pt;}
+
+/*------------------Speakers CSS END------------------*/
+
+
+/*------------------Agenda CSS------------------------*/
+.roomNum{text-align: center; font-size: 14pt; width: 300px;}
+.agenda th{background: none; text-align: center; font-size: 18pt; color: #ea0; padding: 10px 0;}
+.noSpeakerImg{height: auto;}
+.timeContent li:not(.noSpeakerIMG){display:table; height:100px}
+.timeContent li div{display:table-cell; width:auto; text-align:center; vertical-align:middle;}
+.agenda .timeContent{font-size: 14pt; width: 400px; margin-left: 30px; list-style: none;}
+.timeContent .times{width: 80px; float: left;}
+.timeContent img{padding: 0 25px; height: 100px; width: 100px;}
+.lightHR{border: 0; height: 0; border-top: 1px solid rgba(0, 0, 0, .3); border-bottom: 1px solid rgba(255, 255, 255, .5); padding: 5px 0; vertical-align: middle; line-height: 10px; width: 100%;}
+table.agendaData, table.agendaData * {padding: 0; margin: 0;}
+.agendaData{width: auto;}
+.agendaData td{vertical-align: middle;}
+.agendaData tr{width: auto;}
+.agendaData td > div{margin: 0 auto;}
+.agendaData td:not(.time){width: 425px;}
+.agendaData .time{margin: auto 0;}
+.agendaData .time > div{margin: 0 auto; background: rgb(20,71,40); color: #ea0; height: 100px; width: 100px; border-radius: 50px; display: table; overflow: hidden; text-align: center; font-size: 16pt;}
+.agendaData .time > div > div{display: table-cell; vertical-align: middle;}
+.agendaData img{width: 100px; height: 100px; padding: 10px; vertical-align: middle;}
+.agendaData .names{font-size: 14pt;}
+.horzTimes{display: inline-block;}
+.horzTimes > div{width: 150px;}
+.horzTimes .time{width: 150px;}
+.eventSubtitle{font-size: 12pt; color: #777; font-weight: normal;}
+/*------------------Agenda CSS END------------------*/
+
+
+/*-----------------Travel CSS-------------------------*/
+.hotelDescript{width: 450px; text-align: justify;}
+.hotelDir{float: right; padding: 15px;}
+.hotelIMG{float: right; padding: 15px;}
+.promoCode{color: black; border:2px solid black; background: #ea0; border-radius: 20px; width: 150px; text-align: center; font-size: 16px; font-weight: bold; padding: 10px;}
+.promoCode, .promoURL{margin-left: auto; margin-right: auto; text-align: center;}
+.hotelDescript li, .travel li{font-size: 12pt; color: black;}
+.hotelDescript h4{font-weight: bolder; color: black;}
+.hotelDescript h2{text-align: center;}
+.hotelAddress{/*font-size: 10pt;*/color:black; text-align: center;}
+.limitedDisclaimer{text-align: center; font-variant: small-caps; font-weight: bold;}
+/*-----------------Travel CSS END----------------------*/

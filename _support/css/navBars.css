@@ -1,0 +1,79 @@
+/* Notification section */
+.topNotice {
+    padding: 5px;
+    text-align: center;
+    background: #B92323;
+    color: white;
+    border-bottom: 2px solid #ff1300;
+}
+.topNotice a {
+    color: white;
+    font-weight: bold;
+	text-decoration:none;
+}
+.topNotice a:hover{text-decoration:underline; color:rgb(20,71,40);}
+
+/* CSU Header */
+#topbar {height:51px; background-color: rgb(20,71,40); /*border-bottom:5px solid #ea0;*/}
+#topbar div.wrap {width:900px; margin:0px auto; position:relative;}
+
+#topbar div#searchbar {display:block; height:20px; margin:0px; padding:0px 0px 0px 0px; position:absolute; right:5px; top:12px; width:auto;}
+#topbar div#searchbar p{float:left;}
+#topbar div#searchbar p a:link, #topbar div#searchbar p a:visited{color:white;}
+#topbar div#searchbar p a:hover, #topbar div#searchbar p a:active{color:#FAAD00;}
+#topbar #searchbar form {font-size:80%;float:left;}
+#topbar #searchbar form label {display:none;}
+#topbar #searchbar form {display:block; padding:4px 0px 0px 2px; margin:0px;}
+#topbar #searchbar form input.azsearch {
+	height:15px;
+	margin:1px 0px 0px 5px;
+	border:1px solid #014911;
+	display:block;
+	float:left;
+	width:120px;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width:100px;
+}
+#topbar html>body #searchbar form input.azsearch {
+	width:125px;
+}
+#topbar #searchbar form input.azsubmit {margin:0px 0px 0px 5px; padding:0px; height:19px; font-size:12px; display:block; float:left;}
+
+#topbar div.logo a img{height:33px; width:297px; margin-top: 10px;}
+#topbar div.logo a{padding: 35px 5px 5px 0px;}
+
+/* CSU Footer */
+.push{height: 70px;}
+.footer {height: 56px; background-color:rgb(20,71,40); padding: 5px 0;}
+.footer div.wrap {width:900px; margin:0px auto; position:relative;}
+.footer div.wrap div#copyRight p{color: white;}
+
+.footer div#linkBar p{vertical-align: middle; line-height: 51px; float: left;}
+.footer div#linkBar p a:link, .footer div#linkBar p a:visited, .footer div#copyRight p a:visited, .footer div#copyRight p a:link{color:white;}
+.footer div#linkBar p a:hover, .footer div#linkBar p a:active, .footer div#copyRight p a:active, .footer div#copyRight p a:hover{color:#FAAD00;}
+
+.footer div#copyRight p{text-align: right; font-size: 9pt;}
+
+/* Site Nav Bar*/
+.nav{margin: 0 auto; width: 990px; z-index: 0;}
+.nav ul{margin: 0 0 0 -30px;}
+.nav ul li span{color: #999;}
+.nav ul li{display: inline; margin: 0 15px 0 0; font-size: 16pt; font-variant: small-caps; z-index: 0; color: white;}
+.nav ul li a{color: white; padding: 5px 10px; text-decoration: none;}
+.nav ul li a:hover{color: rgb(20,71,40); background: #ea0;}
+.navBG{padding-top: 5px; height:24px; background-color: rgb(20,71,40);}
+
+.has-items:hover .dropDown, .has-items.hover .dropDown {max-height: 300px;}
+.nav ul li .dropDown{padding:0; width: 197px; position: absolute; margin: 5px 0 0 418px; overflow: hidden; max-height: 0; -webkit-transition: max-height 0.75s; -moz-transition: max-height 0.75s; transition: max-height 0.75s;}
+.nav ul li .dropDown li{width: 197px; display: block; background: #555; text-align: center;}
+
+/*Travel Sub Nav Bar*/
+.rightSubNav{color: white; margin-top: -20px; margin-right: 25px;}
+.subNav ul{list-style: none; background: rgb(20,71,40); padding: 10px; float: right; border-bottom-left-radius: 1500px; border-bottom-right-radius: 1500px;}
+.subNav ul li{display: inline; padding:0 10px;}
+.subNav ul li:first-child{padding-left: 35px;}
+.subNav ul li:last-child{padding-right: 35px;}
+.subNav span{color: #999;}
+.subNav a{color: white; font-variant: small-caps; text-decoration: none; font-size: 13pt;}
+.subNav a:hover{color: #ea0; text-decoration: underline;}
